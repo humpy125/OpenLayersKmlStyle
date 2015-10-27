@@ -5,6 +5,7 @@ The write method adds a Document node after the kml node that encapsulates the r
 Usage
 Add KmlStyle.js to the page
 Create a new kml format object as per the OpenLayers documentation however, there is also a styleDef property available eg:
+
         styleDef:{
             styleId: <style name>,
             icon:{colour: <icon colour>,scale:<scale>, href:<href>},
@@ -14,6 +15,7 @@ Create a new kml format object as per the OpenLayers documentation however, ther
         }
         
 Example Usage:
+
     var kmlFmt = new KmlStyle({
         foldersName: "Kml Export",
         styleDef:{
